@@ -122,7 +122,8 @@ HORNMOD_AddHorns({name = "sfx_hbdgku", info = "Oi, eu sou o Goku"},
 {name = "sfx_hbdvcb", info = "Vai comecar a baixaria", extags = "mamonas"},
 {name = "sfx_hbdvlb", info = "Vira lata sofrendo de bronquite", extags = "quico"},
 {name = "sfx_hbdvvp", info = "VOCE E A VERGONHA DA PROFISSION", extags = "pe de fava"},
-{name = "sfx_hbdvvm", info = "Eu vim ver o macaco", extags = "Kaiba"} -- Segundo horn com macaco já
+{name = "sfx_hbdvvm", info = "Eu vim ver o macaco", extags = "Kaiba",
+{name = "sfx_hbdtac", info = "Taca-le pau nesse carrinho marcos"} -- Segundo horn com macaco já
 )
 
 
@@ -131,10 +132,10 @@ HORNMOD_AddHellHorns({name = "sfx_hbdaaa", info = "MAMAAAAAAAAAAAAAAAAAE"},
 {name = "sfx_hbdbdf", info = "Bau da Felicidade"},
 {name = "sfx_hbdkns", info = "KASINAO NO SABADACO"}, -- a musica inteirinha
 {name = "sfx_hbdmdj", info = "Sampley de guitarra"},
-{name = "sfx_hbdmm0", info = "Monumental par de coxas completo"},
+{name = "sfx_hbdmm0", info = "Monumental par de coxas"},
 {name = "sfx_hbdpbt", info = "Pao de batataaa"},
 {name = "sfx_hbdplg", info = "Plantao da Globo"},
-{name = "sfx_hbdrsr", info = "1 minuto de risadas do Chaves"},
+{name = "sfx_hbdrsr", info = "Risadas do Chaves"},
 {name = "sfx_hbdsba", info = "Sabao cra cra"},
 {name = "sfx_hbdvoa", info = "La vem o alemao - intro"}, -- seila
 {name = "sfx_hbdaah", info = "AAaaah, eu vo gozaaa"},
