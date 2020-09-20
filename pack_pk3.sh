@@ -1,4 +1,8 @@
-# DO NOT USE DOESN'T WORK yet
+if [ ! -f convertpk3-src/convertpk3 ]; then
+    cd convertpk3-src
+    make
+    cd ..
+fi
 
 PK3NAME="KL_HornsBR_v5.0.2" #rename to later version
-zip $PK3NAME.pk3 Lua/* Sounds/* Sounds/hell/* #not working right now
+convertpk3-src/convertpk3 . $PK3NAME.pk3
