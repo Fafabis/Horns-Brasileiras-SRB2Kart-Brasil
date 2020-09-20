@@ -204,7 +204,7 @@ HORNMOD_AddHorns({name = "sfx_hbdgku", info = "Oi, eu sou o Goku"},
 {name = "sfx_hbdbr9", info = "Asas batendo, marcha de decolagem, tubinas e JA!"},
 {name = "sfx_hbdbrs", info = "Brasil sil sil"},
 {name = "sfx_hbdbrh", info = "Bruh"},
-{name = "sfx_hbdnad", info = "Nada que é do pobre funciona"},
+{name = "sfx_hbdnad", info = "Nada que eh do pobre funciona"},
 -- horns sumidas daqui pra baixo
 {name = "sfx_hbdbr6", info = "Quieto seu quadrupede burro"},
 {name = "sfx_hbdhum", info = "Hum, eh mesmo?"},
