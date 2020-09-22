@@ -212,6 +212,9 @@ HORNMOD_AddHorns({name = "sfx_hbdgku", info = "Oi, eu sou o Goku"},
 {name = "sfx_hbdcvl", info = "Cavalo"},
 {name = "sfx_hbdpze", info = "Vai toma no teu cu hein maluco", extags = "MC Poze"},
 -- de volta à programação normal
+{name = "sfx_hbdbib", info = "Papa Leguas - Bi bi", extags = "meep"},
+{name = "sfx_hbdsqu", info = "SQUEAK"}, -- tirar caso for usar o hornmod original dnv eventualmente
+-- horns passadas do hell pra cá
 {name = "sfx_hbdedj", info = "Ed Junior UOOOOOO", extags = "porra"}, -- desculpa mas eu adoro essa horn
 {name = "sfx_hbdhl8", info = "Antonio Nunes"},
 {name = "sfx_hbdcng", info = "CORRE NEGADA"},
@@ -253,6 +256,5 @@ HORNMOD_AddHellHorns({name = "sfx_hbdaaa", info = "MAMAAAAAAAAAAAAAAAAAE"},
 {name = "sfx_hbdess", info = "Essa porra ainda cai"},
 {name = "sfx_hbdnss", info = "Nossa vc e muito bom"},
 {name = "sfx_hbdppp", info = "N A N I"},
-{name = "sfx_hbdvmn", info = "Vai morrer antes do natal"},
-{name = "sfx_hbdsqu", info = "SQUEAK"}
+{name = "sfx_hbdvmn", info = "Vai morrer antes do natal"}
 )
