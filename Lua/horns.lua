@@ -253,5 +253,6 @@ HORNMOD_AddHellHorns({name = "sfx_hbdaaa", info = "MAMAAAAAAAAAAAAAAAAAE"},
 {name = "sfx_hbdess", info = "Essa porra ainda cai"},
 {name = "sfx_hbdnss", info = "Nossa vc e muito bom"},
 {name = "sfx_hbdppp", info = "N A N I"},
-{name = "sfx_hbdvmn", info = "Vai morrer antes do natal"}
+{name = "sfx_hbdvmn", info = "Vai morrer antes do natal"},
+{name = "sfx_hbdsqu", info = "SQUEAK"}
 )
