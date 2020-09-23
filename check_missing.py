@@ -1,3 +1,5 @@
+# Isso checa arquivos referenciados no .lua que não existem, e vice-versa
+
 import os
 
 def my_function(path,in_folder):
