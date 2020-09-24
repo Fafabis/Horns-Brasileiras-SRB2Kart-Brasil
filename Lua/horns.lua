@@ -213,6 +213,7 @@ HORNMOD_AddHorns({name = "sfx_hbdgku", info = "Oi, eu sou o Goku"},
 {name = "sfx_hbdpze", info = "Vai toma no teu cu hein maluco", extags = "MC Poze"},
 -- de volta à programação normal
 {name = "sfx_hbdbib", info = "Papa Leguas - Bi bi", extags = "meep"},
+{name = "sfx_hbdant", info = "Buzina do Homem-Formiga", extags = "Ant-Man Van Horn"},
 {name = "sfx_hbdsqu", info = "SQUEAK"}, -- tirar caso for usar o hornmod original dnv eventualmente
 -- horns passadas do hell pra cá
 {name = "sfx_hbdedj", info = "Ed Junior UOOOOOO", extags = "porra"}, -- desculpa mas eu adoro essa horn
