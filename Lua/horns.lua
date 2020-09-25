@@ -219,7 +219,8 @@ HORNMOD_AddHorns({name = "sfx_hbdgku", info = "Oi, eu sou o Goku"},
 {name = "sfx_hbdedj", info = "Ed Junior UOOOOOO", extags = "porra"}, -- desculpa mas eu adoro essa horn
 {name = "sfx_hbdhl8", info = "Antonio Nunes"},
 {name = "sfx_hbdcng", info = "CORRE NEGADA"},
-{name = "sfx_hbdbyt", info = "BLYAAAAAAAAAAAT", extags = "blyat"} -- pedido do rio; só evitar dele cair no random e ta de boa
+{name = "sfx_hbdbyt", info = "BLYAAAAAAAAAAAT", extags = "blyat"}, -- pedido do rio; só evitar dele cair no random e ta de boa
+{name = "sfx_hbdsug", info = "Da uma sugada aqui na minha rol*", extags = "sugada"}
 )
 
 
