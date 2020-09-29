@@ -215,6 +215,8 @@ HORNMOD_AddHorns({name = "sfx_hbdgku", info = "Oi, eu sou o Goku"},
 {name = "sfx_hbdbib", info = "Papa Leguas - Bi bi", extags = "meep"},
 {name = "sfx_hbdant", info = "Buzina do Homem-Formiga", extags = "Ant-Man Van Horn"},
 {name = "sfx_hbdsqu", info = "SQUEAK"}, -- tirar caso for usar o hornmod original dnv eventualmente
+{name = "sfx_hbddes", info = "Desliga esse computador AGORA"},
+{name = "sfx_hbdps2", info = "Playstation 2 Logo", extags = "PS2"},
 -- horns passadas do hell pra cá
 {name = "sfx_hbdedj", info = "Ed Junior UOOOOOO", extags = "porra"}, -- desculpa mas eu adoro essa horn
 {name = "sfx_hbdhl8", info = "Antonio Nunes"},
