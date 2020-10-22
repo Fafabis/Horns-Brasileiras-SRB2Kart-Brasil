@@ -271,7 +271,13 @@ HORNMOD_AddHorns({name = "sfx_hbd026", info = "Se deus quiser agora ela cala a b
 {name = "sfx_hbd043", info = "Se eu largar o freio...", extags = "pericles"},
 {name = "sfx_hbd044", info = "Rohan oi oi oi oi oi oi oi..."}, -- Pros jojofags no server.
 {name = "sfx_hbd045", info = "Simon Belmont Risada"},
-{name = "sfx_hbd046", info = "Isto e a maior PUTARIA"}
+{name = "sfx_hbd046", info = "Isto e a maior PUTARIA"},
+{name = "sfx_hbdaln", info = "Alan sendo metaforado"},
+{name = "sfx_hbd102", info = "Aquele moloide idiota covarde trapaceiro"},
+{name = "sfx_hbd103", info = "Miku boca suja lite"},
+{name = "sfx_hbd104", info = "SAAAAAI DA FREEEEEENTE SATANAAAAAAAAAAAAAAAAAAAAAAAS"},
+{name = "sfx_hbd105", info = "EU VOU QUEBRAR SEU OVO"}
+
 )
 
 HORNMOD_AddHellHorns({name = "sfx_hbdaaa", info = "MAMAAAAAAAAAAAAAAAAAE"},

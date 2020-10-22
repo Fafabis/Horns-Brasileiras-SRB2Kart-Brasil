@@ -1,3 +1,4 @@
+#!/bin/bash
 cd Sounds
 ffmpeg-normalize *.* -nt rms -t -9 -c:a libvorbis -b:a 112k -ext ogg -f
 cd hell

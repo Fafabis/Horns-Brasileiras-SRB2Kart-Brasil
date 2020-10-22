@@ -1,3 +1,4 @@
+#!/bin/bash
 if [ ! -f convertpk3-src/convertpk3 ]; then
     cd convertpk3-src
     make
