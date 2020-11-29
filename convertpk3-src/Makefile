@@ -1,10 +1,10 @@
 #convertpk3 Makefile by F.A Paulino (filpAM)
 
-CXX = g++-9
-CC = gcc-9
+CXX = g++
+CC = gcc
 
 CXXFLAGS = -std=c++17 -lstdc++fs
-CFLAGS = -std=c++17 -lstdc++fs
+CFLAGS = -std=c99
 
 LIBS =  -lz
 
@@ -24,7 +24,7 @@ convertpk3: $(OBJ_FILES)
 
 
 $(CXX_OBJ): %.o: %.cpp
-	$(CC) -c $(CFLAGS) -o $@ $<
+	$(CXX) -c $(CXXFLAGS) -o $@ $<
 
 $(C_OBJ): %.o: %.c
 	$(CC) -c $(CFLAGS) -o $@ $<
