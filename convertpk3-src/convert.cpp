@@ -148,6 +148,56 @@ bool convert2pk3(const char* path, const char* savename, int method, int level, 
             }
         }
     }
+    
+    if(fs::exists(path + "/Sprites"s) && fs::is_directory(path + "/Sprites"s))
+    {
+        zipOpenNewFileInZip(nzip,"Sprites/",zinfo,NULL,0,NULL,0,NULL,method,level);
+        zipCloseFileInZip(nzip);
+        
+        for (const auto & entry : fs::recursive_directory_iterator(path + "/Sprites"s))
+        {
+            if(!fs::is_directory(entry.path().c_str())){
+                FILE* fp = fopen(entry.path().c_str(),"rb");
+                fseek(fp, 0 , SEEK_END);
+                long fileSize = ftell(fp);
+                fseek(fp, 0 , SEEK_SET);// needed for next read from beginning of file
+
+                char *buffer;
+                buffer = (char *)malloc(fileSize * sizeof(char)); // Enough memory for the file
+                fread(buffer, fileSize, 1, fp); // Read in the entire file
+                
+                zipOpenNewFileInZip(nzip,("Sprites/"s + entry.path().filename().c_str()).c_str(),zinfo,NULL,0,NULL,0,NULL,method,level);
+                zipWriteInFileInZip(nzip,buffer,fileSize);
+                zipCloseFileInZip(nzip);
+                fclose(fp);
+            }
+        }
+    }
+    
+    if(fs::exists(path + "/Sfx"s) && fs::is_directory(path + "/Sfx"s))
+    {
+        zipOpenNewFileInZip(nzip,"Sfx/",zinfo,NULL,0,NULL,0,NULL,method,level);
+        zipCloseFileInZip(nzip);
+        
+        for (const auto & entry : fs::recursive_directory_iterator(path + "/Sfx"s))
+        {
+            if(!fs::is_directory(entry.path().c_str())){
+                FILE* fp = fopen(entry.path().c_str(),"rb");
+                fseek(fp, 0 , SEEK_END);
+                long fileSize = ftell(fp);
+                fseek(fp, 0 , SEEK_SET);// needed for next read from beginning of file
+
+                char *buffer;
+                buffer = (char *)malloc(fileSize * sizeof(char)); // Enough memory for the file
+                fread(buffer, fileSize, 1, fp); // Read in the entire file
+                
+                zipOpenNewFileInZip(nzip,("Sfx/"s + entry.path().filename().c_str()).c_str(),zinfo,NULL,0,NULL,0,NULL,method,level);
+                zipWriteInFileInZip(nzip,buffer,fileSize);
+                zipCloseFileInZip(nzip);
+                fclose(fp);
+            }
+        }
+    }
         
     zipClose(nzip,NULL);
     

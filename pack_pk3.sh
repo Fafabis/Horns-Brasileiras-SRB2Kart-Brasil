@@ -5,5 +5,5 @@ if [ ! -f convertpk3-src/convertpk3 ]; then
     cd ..
 fi
 
-PK3NAME="KL_HornsBR_v9" #rename to later version
-convertpk3-src/convertpk3 . $PK3NAME.pk3
+PK3NAME="KL_HornsBR_v9.1" #rename to later version
+convertpk3-src/convertpk3 ./HornsBR/ $PK3NAME.pk3
